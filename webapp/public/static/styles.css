@@ -1,0 +1,38 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+    padding-bottom: 90px;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 448px;
+    background: white;
+    border-top: 1px solid #eee;
+    display: flex;
+    z-index: 100;
+}
+
+.editable-cell:focus {
+    background-color: #fffde7;
+    outline: 2px solid #1a237e;
+    border-radius: 4px;
+}
+
+.holiday {
+    color: #ef4444 !important;
+    font-weight: bold;
+    background-color: #fff5f5;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
